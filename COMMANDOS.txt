@@ -1,0 +1,8 @@
+instalar cliente de EAS para buildear
+npm install -g eas-cli
+eas login
+eas build:configure
+eas build --platform android
+
+to start the react native project
+expo start
