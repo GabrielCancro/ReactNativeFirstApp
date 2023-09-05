@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
  
 import {
-  View,
+  View, Platform, StyleSheet, Text,
 } from 'react-native';
   
 export default class TestComponent extends Component {
@@ -22,3 +22,12 @@ export default class TestComponent extends Component {
         }
     }
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#F0F',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+});
